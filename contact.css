@@ -113,7 +113,7 @@ MEDIA QUERIES
 
 @media all and (min-width: 0px) {
     .contact_content {
-        max-width: 80%;
+        max-width: 90%;
         margin: auto;
         padding: 2.5em;
     }
