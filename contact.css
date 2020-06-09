@@ -93,8 +93,8 @@ BUTTON STYLES
 .right button {
     border-radius: unset;
     padding: 2px;
-    width: 65px;
-    height: 30px;
+    width: 70px;
+    height: 35px;
     display: inline-block;
     outline: none;
     border: none;
@@ -120,4 +120,7 @@ MEDIA QUERIES
     .contact_text {
         line-height: 2em;
     }
+    .right {
+    justify-content: center;
+  }
 }
