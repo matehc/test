@@ -21,7 +21,7 @@
     */
     .contact_section {
         height: 100vh;
-        width: 100vh;
+        width: 100%;
         background-color: #F5FAFE;
         display: flex;
     }
@@ -29,7 +29,7 @@
     .contact_content {
         margin: auto;
         padding: 1em;
-        width: 100%;
+        width: 98%;
     }
 
     .contact_text {
