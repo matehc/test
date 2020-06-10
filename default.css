@@ -65,6 +65,14 @@
         font-weight: 600;
         color: #D19F4E;
     }
+
+    .email {
+        font-size: 24px;
+    }
+
+    span.bold {
+        font-weight: bold;
+    }
     
 /* 
 ==============
@@ -93,7 +101,8 @@ BUTTON STYLES
 */
 .right {
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
+    justify-content: center;
   }
 
   .right button {
