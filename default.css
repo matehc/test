@@ -21,7 +21,7 @@
     */
     .contact_section {
         height: 100vh;
-        width: 100%;
+        width: 100vh;
         background-color: #F5FAFE;
         display: flex;
     }
@@ -29,16 +29,22 @@
     .contact_content {
         margin: auto;
         padding: 1em;
+        width: 100vh;
     }
 
     .contact_text {
         line-height: 2.5em;
         text-align: center;
     }
+
+    .question {
+        font-size: .8em;
+    }
+
     .contact_text a {
         text-decoration: none;
         /* the font size will increase as screen size gets bigger */
-        font-size: .8em;
+        font-size: 1em;
         font-weight: bold;
         display: block;
     }
