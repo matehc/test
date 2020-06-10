@@ -1,0 +1,107 @@
+@media screen and (min-width: 320px) {
+    
+    /* 
+    ===========
+    CSS RESET
+    ===========
+    */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+    /* 
+    =====================
+    CONTACT SECTION STYLE
+    =====================
+    */
+    .contact_section {
+        height: 100vh;
+        width: 100%;
+        background-color: #F5FAFE;
+        display: flex;
+    }
+
+    .contact_content {
+        margin: auto;
+        padding: 1em;
+    }
+
+    .contact_text {
+        line-height: 2.5em;
+        text-align: center;
+    }
+    .contact_text a {
+        text-decoration: none;
+        /* the font size will increase as screen size gets bigger */
+        font-size: 1em;
+        font-weight: bold;
+        display: block;
+    }
+
+    .contact_text a:link {
+        color: #D19F4E;
+    }
+    
+    .contact_text a:visited {
+        color: inherit;
+    }
+    
+    .contact_text a:hover {
+        color: rgb(165, 147, 118);
+    }
+    .heading {
+        font-size: 24px;
+        font-weight: 600;
+        color: #D19F4E;
+    }
+    
+/* 
+==============
+FORM STYLES
+==============
+*/
+
+.field {
+    margin: 10px 0 10px;
+    padding: 15px;
+    width: 100%;
+    background: #F7F7F9;
+    border: 1px solid #BFB8B8;
+    outline: none;
+}
+
+.field::placeholder {
+    font-size: .7em;
+    color: #dadadc;
+}
+
+/* 
+=============
+BUTTON STYLES
+=============
+*/
+.right {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .right button {
+    border-radius: unset;
+    padding: 2px;
+    width: 70px;
+    height: 35px;
+    display: inline-block;
+    outline: none;
+    border: none;
+    background-color: #D19F4E;
+    color: black;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+}
