@@ -38,7 +38,7 @@
     .contact_text a {
         text-decoration: none;
         /* the font size will increase as screen size gets bigger */
-        font-size: 1em;
+        font-size: .8em;
         font-weight: bold;
         display: block;
     }
