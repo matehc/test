@@ -1,0 +1,15 @@
+@media screen and (min-width: 640px) {
+    .contact_content {
+        max-width: 60%;
+        margin: auto;
+    }
+    .contact_text {
+        line-height: 2em;
+    }
+    .right {
+    justify-content: flex-end;
+  }
+  .question {
+    font-size: 1em;
+}
+}

@@ -27,9 +27,9 @@
     }
 
     .contact_content {
+        width: 98%;
         margin: auto;
         padding: 1em;
-        width: 98%;
     }
 
     .contact_text {
@@ -37,14 +37,11 @@
         text-align: center;
     }
 
-    .question {
-        font-size: .8em;
-    }
 
     .contact_text a {
         text-decoration: none;
         /* the font size will increase as screen size gets bigger */
-        font-size: 1em;
+        font-size: 1.5em;
         font-weight: bold;
         display: block;
     }
@@ -66,11 +63,15 @@
         color: #D19F4E;
     }
 
+    .question {
+        font-size: .5em;
+    }
+
     .email {
         font-size: 24px;
     }
 
-    span.bold {
+    .bold {
         font-weight: bold;
     }
     
