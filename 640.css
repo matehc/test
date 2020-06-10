@@ -1,6 +1,7 @@
-@media screen and (min-width: 640px) {
+@media (min-width: 640px) {
     .contact_content {
-        max-width: 60%;
+        /* if adjusted, controls width of contact conatainer on screens above 640px */
+        max-width: 30%;
         margin: auto;
     }
     .contact_text {
@@ -10,6 +11,6 @@
     justify-content: flex-end;
   }
   .question {
-    font-size: 1em;
+    font-size: .85em;
 }
 }
